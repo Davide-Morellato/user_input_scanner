@@ -114,7 +114,7 @@ public class App {
         y *= 2;
         System.out.println("Valore di y moltiplicato: " + y);
 
-        
+
         //INCREMENTO
         x++;
         System.out.println("Incremento: " + x);
@@ -127,6 +127,33 @@ public class App {
         //ESPRESSIONI
         int exp = ((x + y) * 2 + (z - 4) * z);
         System.out.println("Espressione: " + exp);
+
+
+
+        /*
+         * Class MATH
+         * 
+         * metodi: abs, min, max, pow, sqrt
+         * attributo: PI
+         * 
+        */
+        int abs = Math.abs(-5); //ABSOLUTE -> restituisce un numero positivo
+        System.out.println(abs);
+
+        int min = Math.min(55, 12); //compara due valori e ne determina il minore
+        System.out.println(min);
+
+        int max = Math.max(55, 12); //compara due valori e ne determina il maggiore
+        System.out.println(max);
+
+        double pow = Math.pow(5, 2); //eleva il primo parametro con il secondo (a^b) 
+        System.out.println(pow);
+
+        double sqrt = Math.sqrt(100); //restituisce la radice quadrata di un valore (sqrt = square root)
+        System.out.println(sqrt);
+
+        double pi = Math.PI; //restituisce il Pi-Greco
+        System.out.println(pi);
 
         scanner.close();
     }
