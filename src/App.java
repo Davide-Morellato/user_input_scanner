@@ -111,6 +111,9 @@ public class App {
         z /= 2;
         System.out.println("Valore di z diviso: " + z);
         
+        y *= 2;
+        System.out.println("Valore di y moltiplicato: " + y);
+
         
         //INCREMENTO
         x++;
